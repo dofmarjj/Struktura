@@ -571,7 +571,7 @@ footer .copy-row:before {
 }
 
 .background-lines-2 .section-empty:not(.bg-transparent) {
-  background-color: #f8f8f8;
+  background-color: #f8f8f86e;
 }
 
 .background-lines-2 [data-height].collapse-box .panel:not(.no-gradient):after {
