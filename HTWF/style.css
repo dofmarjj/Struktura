@@ -8089,3 +8089,7 @@ html.iex .footer-parallax {
 .contact-title {
   margin-bottom: 50px;
 }
+
+.w-full {
+  width: 100%;
+}
