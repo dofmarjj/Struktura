@@ -1045,6 +1045,7 @@
               </p>
               <hr class="space m" />
               <form
+                id="tg"
                 action="http://www.framework-y.com/scripts/php/contact-form.php"
                 class="form-box form-ajax"
                 method="post">
@@ -1088,17 +1089,19 @@
                   class="form-control form-value"
                   required=""></textarea>
                 <hr class="space s" />
-                <a class="btn-sm btn">Відправити</a>
+                <button type="submit" class="btn-sub">
+                  <a class="btn-sm btn">Відправити</a>
+                </button>
                 <div class="success-box">
                   <div class="alert alert-success">
                     Вітаю. Ваше повідомлення успішно надіслано
                   </div>
                 </div>
-                <div class="error-box">
+                <!-- <div class="error-box">
                   <div class="alert alert-warning">
                     Помилка, повторіть спробу. Ваше повідомлення не надіслано
                   </div>
-                </div>
+                </div> -->
               </form>
             </div>
             <div class="col-md-6">
@@ -1111,7 +1114,7 @@
                 <li><b>Недiля</b> Не працюю</li>
               </ul>
               <hr class="space m" />
-              <h2>Contact</h2>
+              <h2>Контакти</h2>
               <hr class="space s" />
               <ul class="list-texts">
                 <li><b>Телефон</b> +380935287053</li>
@@ -1158,6 +1161,7 @@
           </div>
         </div>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
       <script src="../HTWF/scripts/jquery.min.js"></script>
       <script src="../HTWF/scripts/script.js"></script>
       <link
@@ -1178,6 +1182,7 @@
       <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
       <script src="../HTWF/scripts/jquery.slimscroll.min.js"></script>
       <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+      <script src="./HTWF/scripts/tg.js"></script>
     </footer>
   </body>
 </html>
