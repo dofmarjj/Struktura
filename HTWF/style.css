@@ -8086,6 +8086,10 @@ html.iex .footer-parallax {
 
 /* new css */
 
+.btn-main {
+  margin: 20px 0px 20px 20px;
+}
+
 .contact-title {
   margin-bottom: 50px;
 }
